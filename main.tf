@@ -2,8 +2,8 @@ terraform {
   backend "azurerm" {
       resource_group_name = "backend-eastus-rg"
       storage_account_name = "backendeastus"
-      container_name = "webapp"
-      key = "terraform.webapp"
+      container_name = "stage"
+      key = "terraform.stage"
       access_key = "BS6NCIhq1IvNmunWeZeXzKLTHusqgeofTG87OHftcmAAgyZTpr5MQZec+3JqOkp2AG4WUY1HIGaA+AStx0SnZQ=="
   }
 }
